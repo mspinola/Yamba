@@ -25,6 +25,9 @@ public class StatusActivity extends Activity implements OnClickListener {
 		editText = (EditText) findViewById(R.id.editText);
 		updateButton = (Button) findViewById(R.id.buttonUpdate);
 		updateButton.setOnClickListener(this);
+		
+//		twitter = new Twitter();
+//		twitter = new Twitter("mattspinola", "1spinola1");
 		twitter = new Twitter("student", "password");
 		twitter.setAPIRootUrl("http://yamba.marakana.com/api");
 	}
